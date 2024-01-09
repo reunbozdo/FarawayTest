@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6864911b3090c4fef8c7856e1e239228, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  windowControllerSettings:
+    createAllWindowsAtInitialize: 0
+    windowsInProject:
+    - {fileID: 5879447429895565250, guid: 6cda6f1461890433888f77f1281aa2af, type: 3}
+    - {fileID: 5854571413211188552, guid: 8c9f509380a6c4b7694c9d5f76a2ca00, type: 3}
+    - {fileID: 2762468579124597267, guid: d858571db491b4528b5f12b646d904ad, type: 3}
+  defaultUIElementAnimationSettings: {fileID: 11400000, guid: 914c72dcae1e640bbaf8b2da12898066,
+    type: 2}
+  defaultButtonBehaviourSettings: {fileID: 11400000, guid: 7ae5b1b24d5254b8c99cca354b25bdb0,
+    type: 2}
+  defaultTextBehaviourSettings: {fileID: 11400000, guid: ea65726c4d786474c9166b4128c901f5,
+    type: 2}
+  swipeSettings:
+    lengthOfSwipePX: 300
+  characterSpeedSettings:
+    baseSpeed: 0.1
+    speedChangeDuration: 1
+  characterLaneSwitchSettings:
+    playerStartLane: 1
+    duration: 0.4
+    switchCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  characterJumpSettings:
+    jumpHeight: 1.4
+    jumpDuration: 0.7
+    jumpAnimationBlendDuration: 0.1
+    jumpCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.199043
+        outSlope: 4.199043
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.027567277
+      - serializedVersion: 3
+        time: 0.49996024
+        value: 1.0002968
+        inSlope: 0.012563985
+        outSlope: 0.012563985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.16698809
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.394334
+        outSlope: -4.394334
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.015312766
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    breakDuration: 0.2
+    breakCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  characterCrawlSettings:
+    animationChangeDuration: 0.4
+    crawlDuration: 0.8
+    crawlBreakDuration: 0.4
+  characterFlySettings:
+    heigth: 3
+    takeOfDuration: 0.4
+    takeOfCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    landingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  roadGenerationSettings:
+    roadChunkPrefab: {fileID: 8328284501010781246, guid: a36e8346aff4e4c988d59749a56d8c64,
+      type: 3}
+    lanePrefab: {fileID: 3793355322776131252, guid: ddccb868032824decb674402a7332fff,
+      type: 3}
+    laneCount: 3
+    distanceBetweenLanes: 2
+    roadChunkCount: 15
+  obstacleGenerationSettings:
+    obstacleSpawnProbabilityAtStart:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0015296936
+        value: -0.0036941543
+        inSlope: 1.2719649
+        outSlope: 1.2719649
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.024463177
+      - serializedVersion: 3
+        time: 1
+        value: 0.50336456
+        inSlope: 0.07963057
+        outSlope: 0.07963057
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07656968
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startAreaLenght: 300
+  boosterGenerationSettings:
+    spawnProbability: 0.1
